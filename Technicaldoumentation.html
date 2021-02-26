@@ -1,0 +1,443 @@
+                                       <!-- Technical Documentation Page -->
+
+<!DOCTYPE html>
+<html>
+      <!-- Head Section -->
+     <head>
+       
+       <!-- Title Section -->
+     <title>Technical Documation Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is survey website">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+       
+  </head>
+ 
+<!--- Body Section ---> 
+
+<body>
+
+    <!-- Style Section-->
+    <style>
+    #main-doc{
+        width:1000px;
+        margin-left:32%;
+        padding:5px;
+      }
+      
+      h1 {
+        font-family:"Times New Roman", Times, serif;
+        color: #8d336b;
+        font-size: 2em;
+        text-align: center;
+      }
+      
+      body {
+        background-color: #8caeec;
+        padding: 10px;
+        margin-top: 40px;
+        }
+      
+      p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+      }
+      
+      ul {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size-adjust: inherit;
+      }
+      
+      code {
+        background-color: rgb(206, 17, 17);
+        font-size: 1.5em;
+      }
+      
+      h4{
+          font-family:Arial, Helvetica, sans-serif;
+        font-size:18px;
+      }
+      
+      h3{
+          font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+      }
+      
+       ol{
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: 1.2em;
+       }
+      
+      .nav-link {
+        display: grid;
+        font-size: 1.5em;
+        padding: 5px;
+        font-family: Wendy one;
+      }
+      
+      .main-section {
+        padding: 10px;
+      }
+      
+      #navbar {
+        height: 100%;
+        width: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding:5px;
+        background-color: #57df69;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+      
+      footer{
+          text-align: center;
+          font-style: italic;
+      }
+
+    </style>
+
+      <!-- Main Section -->
+
+<main id="main-doc">
+    
+    <!-- Section 1-->
+    <section class="main-section" id="Introduction">
+      
+      <!-- Header 1 --->
+      <header>
+        <h1>Introduction</h1>
+      </header>
+          <!-- Article 1-->
+      <article>
+      <p>The communication system is a system which describes the information exchange between two points.</p>
+      
+      <p>The process of transmission and reception of information is called communication.</p>
+      
+      <p>The major elements of communication are the Transmitter of information, Channel or medium of communication and the Receiver of information.</p>
+        
+    <h2>Table of Contents</h2>
+      <ul> 
+        <code>
+        <li>
+          Type of Communication Systems
+        </li>
+        </code>
+        
+        <code>
+        <li>
+         Examples of Communication Systems
+        </li>
+        </code>
+        
+        <code>
+        <li>
+          Elements of Communication Systems
+        </li>
+        </code>
+        
+        <code>
+        <li>
+          Block Diagram of Communication Systems
+        </li>
+        </code>
+        
+        <code>
+        <li>
+          Objective Questions
+        </li>
+        </code>
+        </ul>
+      </article>
+      
+    </section>
+    
+    <!-- Section 2-->
+    <section class="main-section" id="Type_of_Communication_Systems">
+      
+      <!-- Header 2 --->
+      <header>
+        <h1>Type of Communication Systems</h1>
+      </header>
+
+      <!--Article 2-->
+      <article>
+      <p>Depending on Signal specification or technology, the communication system is classified as follows:</p>
+      <h3>(1) Analog</h3>
+      
+      <p> Analog technology communicates data as electronic signals of varying frequency or amplitude.</p>
+      
+    <p>Broadcast and telephone transmission are common examples of Analog technology.</p>
+      
+      <h3>(2) Digital</h3>
+      <p>
+         Digital technology, the data are generated and processed in two states:- High (represented as 1) and Low (represented as 0).</p>
+        <p> Digital technology stores and transmits data in the form of 1s and 0s
+      </p>
+      
+      <h4>Depending on the communication channel, the communication system is categorized as follows:
+      </h4>
+      
+        <h3> 1.Wired(Line Communication)</h3>
+          <ul>
+            <code>
+            <li>
+                Parallel Wire Communication
+            </li>
+
+            <li>
+                Twisted Wire Communication
+            </li>
+
+            <li>
+                Coaxial Cable Communication
+            </li>
+             
+            <li>
+                Optical Fibre Communication
+            </li>
+            </code>
+          </ul>
+        
+        <h3>2.Wireless(Space Communication)</h3>
+        <ul>
+         <code>
+          <li>
+            Ground Wave Communication
+          </li>
+          
+          <li>
+            Sky Wave Communication
+          </li>
+          
+          <li>
+            Space Wave Communication
+          </li>
+          
+           <li>
+             Satellite Communication
+          </li>
+           </code>
+        </ul>
+      <article>
+    </section>
+    
+    <!-- Section 3-->
+    <section class="main-section" id="Elements_of_Communication_Systems">
+     
+      <!-- Header 3 --->
+      <header>
+        <h1>Elements of Communication Systems</h1>
+      </header>
+      
+      <!-- Article 3-->
+      <article>
+        
+      <p>The definitions of the terms used in the communication system are discussed below:-</p>
+      
+      <!-- Information-->
+      <h3>1. Information</h3>
+      <p>Message or information is the entity that is to be transmitted. It can be in the form of audio, video, temperature, picture, pressure, etc.</p>
+      
+      <!--Signal-->
+     <h3>2. Signal</h3>
+      <p>The single-valued function of time that carries the information. The information is converted into an electrical form for transmission.</p>
+      <h3>3. Transducer</h3>
+      <p>A device or an arrangement that converts one form of energy to the other. An electrical transducer converts physical variables such as pressure, force, temperature into corresponding electrical signal variations.</p>
+      
+        <p>Example: Microphone – converts audio signals into electrical signals. Photodetector – converts light signals into electrical signals.</p>
+      
+        <!-- Amplifier-->
+      <h3>4. Amplifier</h3>
+      <p>
+        The electronic circuit or device that increases the amplitude or the strength of the transmitted signal is called an amplifier. </p>
+      
+        <p>When the signal strength becomes less than the required value, amplification can be done anywhere in between transmitter and receiver.</p>
+      
+      <p>
+        A DC power source will provide for the amplification.
+      </p>
+      
+      <!--Modulator-->
+      <h3>5. Modulator</h3>
+      <p>As the original message signal cannot be transmitted over a large distance because of their low frequency and amplitude, they are superimposed with high frequency and amplitude wave called carrier wave.</p>
+        <p>This phenomenon of superimposing of message signal with a carrier wave is called modulation.</p>
+      <p>And the resultant wave is a modulated wave which is to be transmitted.</p>
+
+      <!--Transmitter-->
+      <h3>6. Transmitter</h3>
+      <p>
+        It is the arrangement that processes the message signal into a suitable form for transmission and subsequently reception.
+      </p>
+      
+      <!-- Antenna-->
+      <h3>7. Antenna</h3>
+      <p>
+        An Antenna is a structure or a device that is radiate and receive electromagnetic waves. So, they are used in both transmitters and receivers.</p>
+        <p>An antenna is basically a metallic object, often a collection of wires. The electromagnetic waves are polarised according to the position of the antenna.
+      </p>
+      
+      <!-- Channel-->
+      <h3>8. Channel</h3>
+      <p>
+        A channel refers to a physical medium such as wire, cables, space through which the signal is passed from transmitter to the receiver. 
+      </p>
+        <p>There are many channel impairments that affect the channel performance to a pronounced level. Noise, Attenuation and distortion to mention the major impairments.
+      </p>
+      
+      <!-- Noise-->
+      <h3>9. Noise</h3>
+      <p>Noise is one of the channel imperfection or impairment in the received signal at the destination.</p> 
+        <p>There are external and internal sources that cause noise. External sources include interference, i.e. interference from nearby transmitted signals (cross talk), interference generated by natural source such as lightning, solar or cosmic radiation, from automobile generated radiation, etc.</p> 
+          <p>The external noise can be minimised and eliminated by appropriate design of the channel, shielding of cables. Also by digital transmission external noise can be much minimised.</p>
+     
+          <!-- Demodulation-->
+      <h3>10. Demodulation</h3>
+      <p>
+        It is the inverse phenomenon of modulation.</p>
+      <p>The process of separation of message signal from the carrier wave takes place in the demodulator.</p>
+      
+        <p>The information is retrieved from the modulated wave.
+          
+            <!-- Receiver-->
+      <h3>11. Receiver</h3>
+        <p>
+      An arrangement that extracts the message or information from the transmitted signal at the output end of the channel and reproduces it in a suitable form as the original message signal is a receiver.
+      </p>
+      
+      <!--Repeaters-->
+      <h3>12. Repeaters</h3>
+      <p>Repeaters are placed at different locations in between the transmitter and receiver.</p>
+         <p>A repeater receives the transmitted signal, amplifies it and send it to the next repeater without distorting the original signal.
+      </p>
+
+        <!-- Bandwidth-->
+         <h3>13. Bandwidth </h3>
+      <p>
+        Bandwidth explains the range of frequency over which a signal has been trasmitted.
+      </p>
+  
+   </article>
+    </section>
+    
+    <!-- Section 4--><section class="main-section" id="Block_Diagram_of_Communication_Systems">
+        
+      <!-- Header 4 --->
+      <header>
+        <h1>Block Diagram of Communication Systems</h1>
+      </header>
+      
+      <!-- Article 4-->
+      <article>
+      <p>
+        The block diagram given below represents the flow of the signal from the source to the destination.
+      </p>
+      <img src="https://cdn1.byjus.com/wp-content/uploads/2019/11/block-diagram-of-communication-systems.png" class="center">
+      </article>
+        </section>
+    
+    <!-- Section 5-->
+    <section class="main-section" id="Objective_Questions">
+        
+      <!-- Header 5 --->
+      <header>
+        <h1>Objective Questions</h1>  
+      </header>
+      
+      <!-- Article 5-->
+      <article>
+        
+        <!-- Question 1-->
+        <h3>1. Out of the following,which is nor an essential elements of communication system?</h3>
+        
+        <ol>
+          <li>Transmitter</li> 
+          <li>Transducer</li>
+          <li>Reciver</li>
+          <li>Communication Channel</li>
+        </ol>
+        
+        <!---Question 2 -->
+        <h3>2. In a communication system ,noise is most likly to affect the signal</h3>
+        
+        <ol>
+          <li> At the receiver</li>
+          <li>In the channel or in the transmission line</li>
+          <li>At the transmitter</li>
+          <li>In the information source</li>
+        </ol>
+        
+        <!-- Question 3--->
+        <h3>3. A repeater is a combination of ?</h3>
+           <ol>
+             <li>Receiver</li>
+             <li>Amplifier</li>
+             <li>Transmitter</li>
+             <li>All of these</li>
+             </ol>
+        
+        <!--Answers-->
+        <h3>Answer</h3>
+        <ol>
+          <li>d</li>
+          <li>b</li>
+          <li>b</li>
+        </ol>
+            
+      </article>
+    </section>
+    
+    </main>
+    
+      <!--- Navigation Section-->
+<nav id="navbar">
+  
+  <header>
+    <h1>
+      Communication System
+    </h1>
+  </header>
+  
+  <!-- Introduction Link-->
+  <div>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+  </div>
+  
+  <!-- Type of Communication Systems link-->
+  <div>
+    <a class="nav-link" href="#Type_of_Communication_Systems">Type of Communication Systems </a>
+    </div>
+  
+    <!-- Elements of Communication Systems link-->
+  <div>
+    <a class="nav-link" href="#Elements_of_Communication_Systems">Elements of Communication Systems</a>
+    </div>
+  
+    <!-- Block Diagram of Communication Systems link -->
+  <div>
+    <a class="nav-link" href="#Block_Diagram_of_Communication_Systems">Block Diagram of Communication Systems</a>
+    </div>
+  
+    <!-- Objective Questions link-->
+  <div>
+    <a class="nav-link" href="#Objective_Questions">Objective Questions</a>
+    </div>
+</nav>
+<hr/>
+<!-- Footer Section-->
+<footer>
+    <p>Created By Shivam Kumar Gaur</p>
+</footer>
+  </body>
+  </html>
